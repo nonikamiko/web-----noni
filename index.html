@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Кино Дүйнө — кинотеатр</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=Manrope:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <a class="brand" href="#home">Кино Дүйнө</a>
+            <nav aria-label="Негизги меню">
+                <ul>
+                    <li><a href="#home">Башкы бет</a></li>
+                    <li><a href="#schedule">Сеанстардын жадыбалы</a></li>
+                    <li><a href="#soon">Жакында прокатта</a></li>
+                    <li><a href="#prices">Билеттин баасы</a></li>
+                    <li><a href="#about">Биз жөнүндө</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero" id="home">
+            <div class="wrap">
+                <div>
+                    <h1>Кино чоң экранда</h1>
+                    <p>Кыргыз тасмаларын үй-бүлө, достор менен кино залда көрүңүз.</p>
+                    <a class="btn" href="#schedule">Сеанстарды карап көрүү</a>
+                </div>
+                <div class="next" aria-label="Кийинки сеанс">
+                    <small>Бүгүн, кийинки сеанс</small>
+                    <strong>12:30</strong>
+                    <span>«Жол»</span>
+                    <span class="meta">2-зал · 200 сом</span>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <section aria-labelledby="now-title">
+                <h2 id="now-title">Азыр прокатта</h2>
+                <div class="movies">
+                    <article class="movie">
+                        <div class="poster p1" role="img" aria-label="«Тентек кыз» тасмасынын афишасы">
+                            <b>Тентек кыз</b>
+                        </div>
+                        <div>
+                            <h3>Тентек кыз</h3>
+                            <p class="tags">Комедия, үй-бүлөлүк · 1 саат 45 мүнөт</p>
+                            <p>Бир да убакта бош отурбаган шайыр кыздын күлкүлүү жана жылуу окуясы.</p>
+                            <span class="age">6+</span>
+                        </div>
+                    </article>
+                    <article class="movie">
+                        <div class="poster p2" role="img" aria-label="«Жол» тасмасынын афишасы">
+                            <b>Жол</b>
+                        </div>
+                        <div>
+                            <h3>Жол</h3>
+                            <p class="tags">Драма, укмуштуу окуя · 2 саат 05 мүнөт</p>
+                            <p>Алыскы сапарга чыккан каарман жолдо өзүн жана чыныгы баалуулуктарды табат.</p>
+                            <span class="age">12+</span>
+                        </div>
+                    </article>
+                </div>
+                <div class="teaser">
+                    <span>Жакында экранда: «Курош» — премьера 5-декабрда.</span>
+                    <a href="#soon">Көбүрөөк билүү</a>
+                </div>
+            </section>
+            <section id="schedule" aria-labelledby="sch-title">
+                <h2 id="sch-title">Сеанстардын жадыбалы</h2>
+                <ul class="tickets">
+                    <li class="ticket">
+                        <div class="t">10:00</div>
+                        <div class="n">
+                            <b>Тентек кыз</b>
+                            <span>1-зал · 6+</span>
+                        </div>
+                        <div class="c">
+                            <span>150 сом</span>
+                            <button type="button" class="buy" lang="ru" aria-label="Купить: Тентек кыз, 10:00">Купить</button>
+                        </div>
+                    </li>
+                    <li class="ticket">
+                        <div class="t">12:30</div>
+                        <div class="n">
+                            <b>Жол</b>
+                            <span>2-зал · 12+</span>
+                        </div>
+                        <div class="c">
+                            <span>200 сом</span>
+                            <button type="button" class="buy" lang="ru" aria-label="Купить: Жол, 12:30">Купить</button>
+                        </div>
+                    </li>
+                    <li class="ticket">
+                        <div class="t">15:00</div>
+                        <div class="n">
+                            <b>Тентек кыз</b>
+                            <span>1-зал · 6+</span>
+                        </div>
+                        <div class="c">
+                            <span>200 сом</span>
+                            <button type="button" class="buy" lang="ru" aria-label="Купить: Тентек кыз, 15:00">Купить</button>
+                        </div>
+                    </li>
+                    <li class="ticket">
+                        <div class="t">17:30</div>
+                        <div class="n">
+                            <b>Жол</b>
+                            <span>2-зал · 12+</span>
+                        </div>
+                        <div class="c">
+                            <span>250 сом</span>
+                            <button type="button" class="buy" lang="ru" aria-label="Купить: Жол, 17:30">Купить</button>
+                        </div>
+                    </li>
+                    <li class="ticket">
+                        <div class="t">20:00</div>
+                        <div class="n">
+                            <b>Жол</b>
+                            <span>1-зал · 12+</span>
+                        </div>
+                        <div class="c">
+                            <span>250 сом</span>
+                            <button type="button" class="buy" lang="ru" aria-label="Купить: Жол, 20:00">Купить</button>
+                        </div>
+                    </li>
+                </ul>
+                <p class="note">Жадыбал ар күнү бирдей. Билетти кассадан сеанска 15 мүнөт калганга чейин алсаңыз болот.</p>
+            </section>
+            <section id="soon" aria-labelledby="soon-title">
+                <h2 id="soon-title">Жакында прокатта</h2>
+                <div class="soon">
+                    <div class="poster p3" role="img" aria-label="«Курош» тасмасынын афишасы">
+                        <b>Курош</b>
+                    </div>
+                    <div>
+                        <span class="date">Премьера: 5-декабрь</span>
+                        <h3>Курош</h3>
+                        <p class="tags">Спорттук драма · 1 саат 55 мүнөт · 12+</p>
+                        <p>Эрк, достук жана жеңиш жөнүндө күчтүү окуя. Премьерага чейин кассадан билетти алдын ала брондоп алыңыз.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="prices" aria-labelledby="price-title">
+                <h2 id="price-title">Билеттин баасы</h2>
+                <div class="scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Билет түрү</th>
+                                <th scope="col">10:00–17:00</th>
+                                <th scope="col">17:00дөн кийин</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Балдар (12 жашка чейин)</td>
+                                <td>120 сом</td>
+                                <td>150 сом</td>
+                            </tr>
+                            <tr>
+                                <td>Студенттер</td>
+                                <td>150 сом</td>
+                                <td>200 сом</td>
+                            </tr>
+                            <tr>
+                                <td>Чоңдор</td>
+                                <td>200 сом</td>
+                                <td>250 сом</td>
+                            </tr>
+                            <tr>
+                                <td>VIP-зал</td>
+                                <td>350 сом</td>
+                                <td>450 сом</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="note">Дем алыш жана майрам күндөрү ар бир билетке +20 сом кошулат.</p>
+            </section>
+            <section id="about" aria-labelledby="about-title">
+                <h2 id="about-title">Биз жөнүндө</h2>
+                <div class="about">
+                    <div>
+                        <p>«Кино Дүйнө» — шаардын борборундагы жайлуу кинотеатр. Бизде эки заал: заманбап үн жана даана сүрөт, ыңгайлуу отургучтар.</p>
+                        <p>Биз кыргыз тасмаларын көбүрөөк көрсөтүүгө аракет кылабыз, ошондуктан афишада ар дайым жаңы жана сүйүктүү тасмалар бар.</p>
+                    </div>
+                    <dl class="contacts">
+                        <dt>Дарек</dt>
+                        <dd>Бишкек ш., Чүй проспекти, 100</dd>
+                        <dt>Телефон</dt>
+                        <dd>+996 555 00 00 00</dd>
+                        <dt>Иш убактысы</dt>
+                        <dd>Күн сайын 09:30–23:30</dd>
+                    </dl>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        © 2026 «Кино Дүйнө». Бардык укуктар корголгон.
+    </footer>
+</body>
+</html>
+Купить
